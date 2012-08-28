@@ -45,7 +45,7 @@ public class SpyMemcache implements Memcache {
         }
         else {
             operationTimeout = connectionFactory.getOperationTimeout();
-            log.debug("Using operationTimeout {}ms", operationTimeout);
+            log.info("Using operationTimeout {}ms", operationTimeout);
         }
     }
 
